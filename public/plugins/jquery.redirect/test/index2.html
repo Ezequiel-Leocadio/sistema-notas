@@ -1,0 +1,19 @@
+<html>
+<head>
+    <!-- other headers -->
+    <script src="jquery-XXX.js"></script>
+    <script src="jquery.redirect.js"></script>
+    <script>
+     jQuery(function($){ 
+     //OnClick link do a POST to a login.php with query string
+     // data (user and pasword in this case)
+      $("body").on("click",".post-redirect", function(){
+        $.redirect($(this).attr("href")); 
+      });
+     });
+    </script>
+</head>
+<body>
+   <a href="/login.php?user=johnDoe&password=12345" class="post-redirect">Test redirect</a>
+</body>
+</html>

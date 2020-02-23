@@ -1,0 +1,15 @@
+#tabela_nota_filter{
+	display: none !important;
+}
+.input-custom{
+	padding-right: 0 !important;
+}
+.span-custom{
+	padding: 0 !important;
+}
+.btn-custom{
+	height: 32px;
+}
+.dataTables_filter{
+	display: none;
+}

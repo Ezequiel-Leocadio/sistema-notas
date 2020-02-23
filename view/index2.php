@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <?php require_once '../includes/head.php'; ?>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  <script src="../public/plugins/jquery.redirect/jquery.redirect.js" type="text/javascript"></script>
+  </head>
+  <body>
+  <!-- <input type="text" name="teste" id="teste"> -->
+    <a type="button" target="_blank" name="button">TEST</a>
+
+    <script type="text/javascript">
+    //Log instead of redirect for testing purposes
+ 
+$(document).ready(function() {
+ 
+  $("a").click(function(){
+    var teste2 = $('#teste').val();
+      $.redirect("teste.php",
+      {
+        teste: teste2,
+        password: "12345",
+        submit: "name",
+  		
+      },
+      "POST","_blank",null,true);
+  });
+});
+    </script>
+  </body>
+</html>
+<!-- $.redirect(url, [values, [method, [target, [traditional, [redirectTop]]]]]) -->

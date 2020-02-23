@@ -1,0 +1,130 @@
+table{
+	width: 100%!important;
+}
+
+.novo{
+	position: relative;
+	top: -8px;
+}
+
+.alert{
+	text-align: center;
+
+}
+
+div.elert_sucesso, div.elert_erro{
+	display: none;
+}
+
+li#editar_user_li:not(.Admin) {
+	display: none;
+}
+
+/*andamento*/
+div.andamento{
+	color: #1c351d;
+       background-color: rgba(203, 218, 54, 0.96) !important;
+    border-color: #98a705 !important;
+}
+div.andamento ul li.active a{
+	color: #90820a !important;
+    border-color: #776c09 !important;
+}
+
+div.andamento ul li a{
+	color: #fffefe !important;
+    border-color: #ffffff !important;
+}
+
+div.andamento ul li a:hover{
+	    background-color: #cbd664 !important;
+}
+
+/*pendente*/
+div.pendente{
+	color: white;
+    background-color: #d00e0e !important;
+    border-color: #bd0f07 !important;
+}    
+div.pendente ul li.active a{
+	color: #9a0808 !important;
+	 border-color: #bd0f07 !important;
+}
+
+div.pendente ul li a{
+	color: #fffefe !important;
+    border-color: #ffffff !important;
+}
+
+div.pendente ul li a:hover{
+	background-color: #ea4343 !important;
+}
+
+/*finalizado*/
+div.finalizado{
+	color: #1c351d; 
+    background-color: #62d067 !important;
+    border-color: #4CAF50;
+}
+div.finalizado ul li.active a{
+	color: #027d07 !important;
+    border-color: #4CAF50 !important;
+}
+
+div.finalizado ul li a{
+	color: #fff9f9 !important;
+    border-color: #fefffe !important;
+}
+
+
+div.finalizado ul li a:hover{
+	background-color: #4fb153 !important;
+}
+
+
+.buscaColuna{
+	    width: 100% !important;
+}
+
+div#ocultar_soli{
+    width: 107px;
+    height: 41px;
+    overflow: hidden;
+}
+
+/*painel*/
+.panel-primari {
+
+    border-color: #2aa283!important;
+}
+
+.panel-primari > .panel-heading {
+    border-color: #155f8e;
+    color: #fff;
+    background-color: #287fa7;
+}
+
+.panel-primari > a {
+        color: #1476a7;
+}
+
+.panel-primari > a:hover {
+       color: #1476a7;
+}
+.sem-permissao {
+	display: none;
+}
+
+
+.dataVisuConta{
+	display: none;
+}
+
+.ocultarPerm{
+	display: none;
+}
+
+.ocultar-observacao{
+	display: none;
+}
+
